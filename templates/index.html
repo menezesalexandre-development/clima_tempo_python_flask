@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clima e Tempo com Python</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: black;
+        }
+        p {
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            line-height: 1em;
+            margin: 3em;
+        }
+        form {
+            margin: 0 auto;
+        }
+        input {
+            margin: 0 auto;
+            padding: 1em 10em;
+            border-radius: 1em;
+            border: none;
+        }
+        input::placeholder {
+            text-align: center;
+        }
+        #principal {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <section id="principal">
+        <p>Clima e Tempo<br>das cidades do Brasil</p>
+        <form method="POST">
+            <input id="input_cidade" name="input_cidade" placeholder="Digite uma cidade">
+        </form>
+    </section>
+</body>
+</html>
