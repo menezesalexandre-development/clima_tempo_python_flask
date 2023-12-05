@@ -19,7 +19,7 @@ def clima_tempo(nome_cidade):
                 info_clima['desc_icon'] = 'ceu_limpo.png'
             case 'CLOUDS':
                 info_clima['desc_text'] = 'PARCIALMENTE NUBLADO'
-                info_clima['desc_icon'] = '/clima_icons/parcialmente_nublado.png'
+                info_clima['desc_icon'] = 'parcialmente_nublado.png'
             case 'DRIZZLE':
                 info_clima['desc_text'] = 'CHUVA LEVE'
                 info_clima['desc_icon'] = 'chuva_leve.png'

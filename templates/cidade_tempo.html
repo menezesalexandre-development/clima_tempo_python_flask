@@ -12,11 +12,13 @@
         body {
             margin: 0 auto;
             justify-content: center;
-            background-color: black;
+            background-image: url('/static/background1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         .principal {
             background-color: white;
-            max-width: 50em;
+            max-width: 20em;
             padding: 2em;
             border-radius: 1em;
             display: flex;
@@ -25,18 +27,27 @@
             align-items: center;
             margin: auto;
         }
+        #temperatura {
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+        }
+        #temperatura p {
+            font-weight: bold;
+            font-size: 2em;
+        }
     </style>
 </head>
 <body>
     <section class="principal">
         <h1>{{ cidade }}</h1>
         <div id="temperatura">
-            <img src="{{ desc_icon }}" alt="Ícone temperatura"/>
+            <img src="/static/{{ desc_icon }}" alt="Ícone temperatura"/>
             <p>{{ temperatura }}</p>
         </div>
         <p>{{ desc_text }}</p>
-        <p>{{ umidade }}</p>
-        <p>{{ visibilidade }}</p>
+        <p>Umidade: {{ umidade }}</p>
+        <p>Visibilidade: {{ visibilidade }}</p>
     </section>
 </body>
 </html>
