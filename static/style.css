@@ -1,1 +1,89 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);.principal,input{border-radius:1em}#temp_row,#temperatura p,.principal{margin:auto}#resto_dados,p{line-height:1em}#temperatura p,h1,p{text-align:center}#principal,body,form,input{margin:0 auto}*{font-family:Poppins,sans-serif}body{padding:5em;justify-content:center;background-image:url('/static/background1.jpg');background-size:cover;background-repeat:no-repeat}.principal{background-color:#fff;max-width:20em;padding:2em;display:flex;flex-direction:column;justify-content:center;align-items:center}#temperatura{justify-content:center}#temp_row{display:flex;flex-direction:row}#temp_row p{font-weight:700;font-size:2em}#temp_row img{width:100px;height:100px}#desc_text{margin:0}#resto_dados{margin:1em}p{color:#000;margin:2em}input{padding:1em 10em;border:solid}#error_message,#principal{background-color:#fff;padding:2em;border-radius:1em}input::placeholder{text-align:center}#principal{display:flex;flex-direction:column;justify-content:center;align-items:center;max-width:30em}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+body {
+    padding: 5em;
+    margin: 0 auto;
+    justify-content: center;
+    background-image: url('/static/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.principal {
+    background-color: black;
+    max-width: 20em;
+    padding: 2em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#temperatura {
+    justify-content: center;
+}
+#temperatura p {
+    margin: auto;
+    text-align: center;
+}
+#temp_row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#temp_row p {
+    font-weight: bold;
+    font-size: 2em;
+}
+#temp_row img {
+    width: 100px;
+    height: 100px;
+}
+#desc_text {
+    margin: 0;
+}
+#resto_dados {
+    margin: 1em;
+    line-height: 1em;
+}
+p {
+    color: white;
+    text-align: center;
+    line-height: 1em;
+    margin: 2em;
+}
+form {
+    margin: 0 auto;
+}
+input {
+    margin: 0 auto;
+    padding: 1em 10em;
+    border-radius: 1em;
+    border: solid;
+}
+input::placeholder {
+    text-align: center;
+}
+#principal {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 2em;
+    border-radius: 1em;
+    max-width: 30em;
+}
+#error_message {
+    background-color: black;
+    padding: 2em;
+    border-radius: 1em;
+}
