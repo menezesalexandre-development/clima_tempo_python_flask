@@ -3,51 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ cidade }}</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-        * {
-            font-family: 'Poppins', sans-serif;
-        }
-        body {
-            margin: 0 auto;
-            justify-content: center;
-            background-image: url('/static/background1.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        .principal {
-            background-color: white;
-            max-width: 20em;
-            padding: 2em;
-            border-radius: 1em;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-        }
-        #temperatura {
-            display: flex;
-            flex-direction: row;
-            margin: 0 auto;
-        }
-        #temperatura p {
-            font-weight: bold;
-            font-size: 2em;
-        }
-    </style>
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
     <section class="principal">
         <h1>{{ cidade }}</h1>
         <div id="temperatura">
-            <img src="/static/{{ desc_icon }}" alt="Ícone temperatura"/>
-            <p>{{ temperatura }}</p>
+            <div id="temp_row">
+                <img src="/static/{{ desc_icon }}" alt="Ícone temperatura"/>
+                <p>{{ temperatura }}</p>
+            </div>
+            <p id="desc_text">{{ desc_text }}</p>
         </div>
-        <p>{{ desc_text }}</p>
-        <p>Umidade: {{ umidade }}</p>
-        <p>Visibilidade: {{ visibilidade }}</p>
+        <div id="resto_dados">
+            <p>Umidade: {{ umidade }}</p>
+            <p>Visibilidade: {{ visibilidade }}</p>
+        </div>
     </section>
 </body>
 </html>
