@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ cidade }}</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            margin: 0 auto;
+            justify-content: center;
+            background-color: black;
+        }
+        .principal {
+            background-color: white;
+            max-width: 50em;
+            padding: 2em;
+            border-radius: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <section class="principal">
+        <h1>{{ cidade }}</h1>
+        <div id="temperatura">
+            <img src="{{ desc_icon }}" alt="Ícone temperatura"/>
+            <p>{{ temperatura }}</p>
+        </div>
+        <p>{{ desc_text }}</p>
+        <p>{{ umidade }}</p>
+        <p>{{ visibilidade }}</p>
+    </section>
+</body>
+</html>
