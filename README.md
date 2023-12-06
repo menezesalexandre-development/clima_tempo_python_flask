@@ -1,2 +1,16 @@
-# clima_tempo_python_flask
- Aplicação de clima e tempo desenvolvida com a linguagem Python e o framework Flask
+<h1 align="center">
+ 
+ [🌦️ Clima Tempo com Python e Flask 🌍](https://clima-tempo-python-flask.onrender.com)
+ 
+ </h1>
+
+<p align="center">Aplicação desenvolvida com Python e Flask para trazer informações meteorológicas de qualquer cidade do Brasil.</p>
+
+&nbsp;
+
+ * 📍 **Localização Personalizada:** Insira o nome da cidade ou suas coordenadas geográficas e obtenha instantaneamente os dados sobre o clima.
+ * ☀️🌧️ **Informações Detalhadas:** Receba atualizações precisas sobre temperatura, umidade, velocidade do vento e condições climáticas gerais.
+ * 🛠️ **OpenWeatherMap API:** Os dados metereológicos são obtidos através API do OpenWeatherMap, garantindo acesso rápido aos dados meteorológicos em tempo real.
+
+<img alt="PRINT 1" src="https://github.com/menezesalexandre-development/clima_tempo_python_flask/assets/105326153/f2faeba1-f95e-4309-86e0-f696df4694fa" align="left" width="485">
+<img alt="PRINT 2" src="https://github.com/menezesalexandre-development/clima_tempo_python_flask/assets/105326153/326b599c-b7b4-4cc3-ad5a-aff63486dd4b" align="right" width="485">
