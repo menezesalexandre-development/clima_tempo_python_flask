@@ -17,5 +17,5 @@
  * ☀️🌧️ **Informações Detalhadas:** Receba atualizações precisas sobre temperatura, umidade, velocidade do vento e condições climáticas gerais.
  * 🛠️ **OpenWeatherMap API:** Os dados metereológicos são obtidos através API do OpenWeatherMap, garantindo acesso rápido aos dados meteorológicos em tempo real.
 
-<img alt="PRINT 1" src="https://github.com/menezesalexandre-development/clima_tempo_python_flask/assets/105326153/f2faeba1-f95e-4309-86e0-f696df4694fa" align="left" width="400">
-<img alt="PRINT 2" src="https://github.com/menezesalexandre-development/clima_tempo_python_flask/assets/105326153/326b599c-b7b4-4cc3-ad5a-aff63486dd4b" align="right" width="400">
+<img alt="PRINT 1" src="https://github.com/menezesalexandre-development/clima_tempo_python_flask/assets/105326153/f2faeba1-f95e-4309-86e0-f696df4694fa" align="left" width="390">
+<img alt="PRINT 2" src="https://github.com/menezesalexandre-development/clima_tempo_python_flask/assets/105326153/326b599c-b7b4-4cc3-ad5a-aff63486dd4b" align="right" width="390">
