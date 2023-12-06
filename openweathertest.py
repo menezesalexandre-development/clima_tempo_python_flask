@@ -85,5 +85,4 @@ def clima_tempo(nome_cidade):
     except:
         return 'Não foi possível executar o processo'
 
-
-print(clima_tempo('Vitória da Conquista'))
+    
