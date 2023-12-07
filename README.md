@@ -1,6 +1,6 @@
 <h1 align="center">
- 
- [🌦️ Clima Tempo com Python e Flask 🌍](https://clima-tempo-python-flask.onrender.com)
+
+ <a href="https://clima-tempo-python-flask.onrender.com" target="_blank">🌦️ Clima Tempo com Python e Flask 🌍</a>
  
  </h1>
 
